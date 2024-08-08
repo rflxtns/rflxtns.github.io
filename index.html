@@ -28,9 +28,9 @@
             color: #00ff00;
             text-transform: uppercase;
         }
-        p2 {
-            color: #000000;
-            
+        .about-us p {
+            color: #ffffff;
+            text-shadow: none;
         }
         .schedule, .about-us {
             margin-bottom: 40px;
@@ -53,11 +53,36 @@
         .blink {
             animation: blink 2s linear infinite;
         }
+           .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #00ff00;
+        }
+        .instagram-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .instagram-link a {
+            color: #00ff00;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .instagram-link a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1 class="blink">TIP & OZMA</h1>
+
+          <div class="image-container">
+            <img src="/api/placeholder/800/400" alt="Festival Image">
+        </div>
         
         <div class="schedule">
             <h2>Upcoming Sets:</h2>
@@ -95,12 +120,12 @@
         
         <div class="about-us">
             <h2>About Us</h2>
-            <p2>
+            <p>
                 TIP & OZMA is the latest project from Mikey & Devon, founders of Fizz/Fuze Underground in Philadelphia.
                 They have been operating their venue each weekend for the past year, providing a space to rage until sunrise.
                 Elements is their anniversary and a rflxtn of their adventures & growth together. You'll be seeing them alot if you
                 like Burns. Catch their next project at a local or even the main one, CD Camp. Show this website at Fizz/Fuze for $10 off.
-            </p2>
+            </p>
             <h2>To Mvch Fvtvre~</h2>
         </div>
         
