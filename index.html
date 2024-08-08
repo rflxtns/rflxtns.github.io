@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Festival Set Times</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #000000;
+            color: #00ff00;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            text-shadow: 0 0 5px #00ff00;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(0, 50, 0, 0.3);
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px #00ff00;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #00ff00;
+            text-transform: uppercase;
+        }
+        .schedule, .about-us {
+            margin-bottom: 40px;
+        }
+        .set-time {
+            margin-bottom: 20px;
+            border-bottom: 1px dashed #00ff00;
+            padding-bottom: 10px;
+        }
+        .follow-us {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.2em;
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        .blink {
+            animation: blink 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="blink">Retro Festival Set Times</h1>
+        
+        <div class="schedule">
+            <h2>Our Schedule</h2>
+            <div class="set-time">
+                <p><strong>Partner 1:</strong> Friday, 8:00 PM - Main Stage</p>
+            </div>
+            <div class="set-time">
+                <p><strong>Partner 2:</strong> Saturday, 3:00 PM - Tent Stage</p>
+            </div>
+            <div class="set-time">
+                <p><strong>Partner 1:</strong> Saturday, 10:00 PM - Dance Arena</p>
+            </div>
+            <div class="set-time">
+                <p><strong>Partner 2:</strong> Sunday, 5:00 PM - Closing Party</p>
+            </div>
+        </div>
+        
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>
+                [Your "About Us" content goes here. Write a paragraph introducing yourselves, 
+                your music style, and what attendees can expect from your performances.]
+            </p>
+        </div>
+        
+        <div class="follow-us blink">
+            <p>Don't miss our sets! Follow us for updates:</p>
+            <p>@partner1 | @partner2</p>
+        </div>
+    </div>
+</body>
+</html>
